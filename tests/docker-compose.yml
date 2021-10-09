@@ -1,8 +1,15 @@
-version: '3'
+version: '2'
 services:
-  localnet:
-    image: "solanalabs/solana:stable"
+  httpbin:
+    image: "kennethreitz/httpbin"
     ports:
-      - "8899:8899"
-      - "8900:8900"
-      - "9900:9900"
+      - "8000:80"
+
+# version: '3'
+# services:
+#   localnet:
+#     image: "solanalabs/solana:stable"
+#     ports:
+#       - "8899:8899"
+#       - "8900:8900"
+#       - "9900:9900"
