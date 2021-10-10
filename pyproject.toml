@@ -7,10 +7,10 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.7"
+requests = "^2.26.0"
 
 [tool.poetry.dev-dependencies]
 pytest-docker = "^0.10.3"
-requests = "^2.26.0"
 pytest = "^6.2.5"
 mkdocs = "^1.2.2"
 mkdocs-material = "^7.3.2"
