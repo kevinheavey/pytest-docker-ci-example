@@ -1,3 +1,3 @@
 # Example
 
-Bar.
+Baz.
