@@ -1,16 +1,6 @@
 import pytest
 import requests
-
-from requests.exceptions import ConnectionError
-
-
-def is_responsive(url):
-    try:
-        response = requests.get(url)
-        if response.status_code == 200:
-            return True
-    except ConnectionError:
-        return False
+from pytest_docker_ci_example import is_responsive
 
 
 @pytest.fixture(scope="session")
