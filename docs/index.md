@@ -1,3 +1,3 @@
 # Example
 
-Foo.
+Bar.
